@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.seat-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.seat {
+  padding: 10px;
+  margin: 5px;
+  width: 50px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.seat.booked {
+  background-color: red;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
